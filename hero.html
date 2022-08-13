@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css">
+    <title>HERO PICKER</title>
+</head>
+
+<body class="bg-dark">
+
+    <div class="container d-flex justify-content-center mt-4 min-vh-100">
+        <div class="d-flex flex-column gap-2">
+            <a href="index.html" class="btn btn-dark text-uppercase fw-bold btn-lg mt-1 mb-5">BACK TO LANE</a>
+            <div class="card card-header bg-primary">
+                <h1 class="d-flex justify-content-center fw-bold mt-3 mb-3">ROAMER</h1>
+                <div class="d-flex flex-column gap-2 mt-2">
+                    <img src="./assets/roam.png" class="rounded-circle justify-content-center alignt-items-center mb-3" id="roamer">
+                    <button class="btn btn-success text-uppercase fw-bold btn-lg mt-3 mb-4" onclick="roamerButton()">RANDOM ROAMER</button>
+                </div>
+            </div>
+            <div class="card card-header bg-primary mt-4">
+                <h1 class="d-flex justify-content-center fw-bold mt-3 mb-3">GOLDLANER</h1>
+                <div class="d-flex flex-column gap-2 mt-2">
+                    <img src="../assets/goldlane.png" class="rounded-circle justify-content-center alignt-items-center mb-3" id="goldlaner">
+                    <button class="btn btn-success text-uppercase fw-bold btn-lg mt-3 mb-4" onclick="goldlanerButton()">RANDOM GOLDLANER</button>
+                </div>
+            </div>
+            <div class="card card-header bg-primary mt-4">
+                <h1 class="d-flex justify-content-center fw-bold mt-3 mb-3">JUNGLER</h1>
+                <div class="d-flex flex-column gap-2 mt-2">
+                    <img src="../assets/jungle.png" class="rounded-circle justify-content-center alignt-items-center mb-3" id="jungler">
+                    <button class="btn btn-success text-uppercase fw-bold btn-lg mt-3 mb-4" onclick="junglerButton()">RANDOM JUNGLER</button>
+                </div>
+            </div>
+            <div class="card card-header bg-primary mt-4">
+                <h1 class="d-flex justify-content-center fw-bold mt-3 mb-3">MIDLANER</h1>
+                <div class="d-flex flex-column gap-2 mt-2">
+                    <img src="../assets/midlane.png" class="rounded-circle justify-content-center alignt-items-center mb-3" id="midlaner">
+                    <button class="btn btn-success text-uppercase fw-bold btn-lg mt-3 mb-4" onclick="midlanerButton()">RANDOM MIDLANER</button>
+                </div>
+            </div>
+            <div class="card card-header bg-primary mt-4">
+                <h1 class="d-flex justify-content-center fw-bold mt-3 mb-3">EXPLANER</h1>
+                <div class="d-flex flex-column gap-2 mt-2">
+                    <img src="../assets/explane.png" class="rounded-circle justify-content-center alignt-items-center mb-3" id="explaner">
+                    <button class="btn btn-success text-uppercase fw-bold btn-lg mt-3 mb-4" onclick="explanerButton()">RANDOM EXPLANER</button>
+                </div>
+            </div>
+            <h5 class="d-flex justify-content-end align-content-lg-end mt-3 text-light ">Powered by Kikyw</h5>
+        </div>
+    </div>
+
+    <script src="index.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
